@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <meta name="title" content="My Portfolio">
-  <meta name="description" content="Hi, I'm a Web Developer.">
-  
-  <link rel="stylesheet" href="/src/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-
-  <section class="min-h-screen w-full flex flex-col justify-center items-center bg-gray-200 bg-cover bg-center">
-    <div class="w-full lg:w-[80%] p-12 text-gray-800">
-      <h1 class="text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
-        <span class="banner-text">Hi, my name is <span class="text-teal-500">Đức Minh</span></span>
-        <span class="text-gray-800 banner-text">I'm a Web Developer.</span>
-      </h1>
-      <a href="#about-me" class="banner-cta uppercase border-2 border-teal-500 p-3 hover:bg-teal-500 hover:text-white transition-colors cursor-pointer">
-        <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light">Know more</span>
-      </a>
-    </div>
-  </section>
-
-  <section id="about-me" class="bg-teal-500 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
-    <div class="w-full lg:w-[60%] mb-5">
-      <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
-      <div class="section-content grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
-        <div class="flex justify-center items-center text-center col-span-1">
-          <img class="object-cover max-w-xs lg:w-auto rounded-full bg-white" src="/avatar.jpg" alt="Avatar Đức Minh" />
-        </div>
-        <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
-          <div class="p-0 text-center lg:p-8 lg:text-start">
-            <p class="pb-3 text-lg font-light mb-5">
-              I am a sophomore university student passionate about building things for the web. Combining my studies with practical work experience, I've learned how to craft clean code with the same precision and care as making a perfect cup of coffee.
-            </p>
-            <a href="/Minh_CV.pdf" target="_blank" class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-teal-500 transition-colors cursor-pointer">
-              <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-normal">View My CV</span>
+    <section class="min-h-screen w-full flex flex-col justify-center items-center bg-gray-200 bg-cover bg-center">
+        <div class="w-full lg:w-[80%] p-12 text-gray-800">
+            <h1 class="text-6xl font-bold mb-10 grid grid-cols-1 lg:gap-5">
+                <span class="banner-text">Hi, my name is <span class="inline-block animate-bounce text-teal-500">Đức Minh</span></span>
+                <span class="text-gray-800 banner-text">I'm a Web Developer.</span>
+            </h1>
+            <a href="#about-me" class="banner-cta uppercase border-2 border-teal-500 p-3 hover:bg-teal-500 hover:text-white transition">
+                <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light">Know more</span>
             </a>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
-    <div class="w-full lg:w-[60%] mb-5">
-      <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold mb-6">Contact</h2>
-      <p class="section-content flex flex-col justify-center items-center pt-5 pb-5 text-center">
-        <span class="text-2xl text-teal-500 mb-3">I LOOK FORWARD TO WORKING WITH YOU</span>
-        <span>Let's connect and build something amazing together.</span>
-      </p>
-    </div>
-    <a href="mailto:indominusrex932005@gmail.com" class="section-content border-2 border-teal-500 pl-8 pr-8 pt-3 pb-3 bg-teal-500 text-white hover:bg-white hover:text-teal-500 transition-colors cursor-pointer">
-      <span class="text-xl uppercase font-light">Send An Email Now</span>
-    </a>
-  </section>
+    <section id="about-me" class="bg-teal-500 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+        <div class="w-full lg:w-[60%] mb-5">
+            <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
+            <div class="section-content grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
+                <div class="flex justify-center items-center text-center col-span-1">
+                    <img class="object-cover max-w-xs lg:w-auto rounded-full bg-white" src="./avatar.jpg" alt="Avatar Đức Minh" />
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+                    <div class="p-0 text-center lg:p-8 lg:text-start">
+                        <p class="pb-3 text-lg font-light mb-5">
+                            I am a sophomore university student passionate about building things for the web. Combining my studies with practical work experience, I've learned how to craft clean code with the same precision and care as making a perfect cup of coffee.
+                        </p>
+                        <a href="./Minh_CV.pdf" target="_blank" class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-teal-500 transition">
+                            <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-normal">View My CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script type="module" src="/src/scripts/application.js"></script>
+    <section id="contact" class="min-h-screen w-full flex flex-col justify-center items-center bg-white p-12">
+        <h2 class="section-title uppercase text-4xl font-bold mb-10 text-gray-800">Contact</h2>
+        <div class="text-center">
+            <p class="text-2xl mb-8 text-gray-600">I LOOK FORWARD TO WORKING WITH YOU</p>
+            <p class="text-lg mb-10">Let's connect and build something amazing together.</p>
+            <a href="mailto:your-email@gmail.com" class="uppercase border-2 border-teal-500 p-4 text-teal-500 hover:bg-teal-500 hover:text-white transition font-bold">
+                Send An Email Now
+            </a>
+        </div>
+    </section>
+
+    <script src="./src/js/main.js"></script>
 </body>
 </html>
